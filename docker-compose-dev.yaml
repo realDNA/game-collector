@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  app:
+    restart: always
+    container_name: game_collector_app
+    build:
+      dockerfile: docker-files/dev/Dockerfile
+      context: .
+    ports:
+      #host to image
+      - "8000:8000"
+    volumes:
+      - ./game_collector:/game_collector_root/game_collector
+    command: >
+      sh -c "python3 manage.py makemigrations &&
+             python3 manage.py migrate &&
+             python3 manage.py runserver 0.0.0.0:8000"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=app
+      - DB_USER=game-collector-postgres
+      - DB_PASS=gameCollectorSupersecretPa55W0rd
+
+    depends_on:
+      - db
+
+  db:
+    restart: always
+    image: postgres:12-alpine
+    container_name: game_collector_db
+    ports:
+      #host to image
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=game-collector-postgres
+      - POSTGRES_PASSWORD=gameCollectorSupersecretPa55W0rd

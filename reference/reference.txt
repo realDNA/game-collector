@@ -1,0 +1,7 @@
+two player game:
+https://pusher.com/tutorials/game-python-vue
+https://codyparker.com/django-channels-with-react/
+
+
+svg background:
+https://codepen.io/collection/ABNwxq/?cursor=ZD0xJm89MCZwPTEmdj0xMTMxNDU3
