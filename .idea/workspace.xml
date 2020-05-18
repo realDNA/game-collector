@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="" />
+    <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/game_collector/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/game_collector/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,5 +49,11 @@
       <updated>1589805724554</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="201" width="667" height="486" key="find.popup" timestamp="1589809788206">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="352" y="201" width="667" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589809788206" />
   </component>
 </project>
