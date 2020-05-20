@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/game_collector/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/game_collector/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +30,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/game_collector/frontend" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/game_collector" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/game_collector/frontend" />
       <recent name="$PROJECT_DIR$/game_collector/game_collector" />
       <recent name="$PROJECT_DIR$/game_collector" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game_collector" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -51,9 +57,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="352" y="201" width="667" height="486" key="find.popup" timestamp="1589809788206">
+    <state x="216" y="80" key="SettingsEditor" timestamp="1589875715231">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="352" y="201" width="667" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589809788206" />
+    <state x="216" y="80" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589875715231" />
+    <state x="352" y="201" width="667" height="486" key="find.popup" timestamp="1589873120688">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="352" y="201" width="667" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589873120688" />
   </component>
 </project>
