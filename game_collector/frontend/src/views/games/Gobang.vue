@@ -1,5 +1,11 @@
 <template>
   <div class="gobang">
+    <button class="btn btn-sm btn-outline-info">
+        <router-link to="/">
+            Go back to lobby
+        </router-link>
+    </button>
+
     <h1>
         Gobang
     </h1>
