@@ -40,6 +40,8 @@
 </template>
 
 <script>
+//import moment from 'moment'
+//import ReconnectingWebSocket from 'reconnecting-websocket';
 import GameNavBar from "@/components/game-lobby/GameNavBar.vue";
 import GameRule from "@/components/game-lobby/GameRule.vue";
 import GameCompeting from "@/components/game-lobby/GameCompeting.vue";
@@ -60,7 +62,7 @@ export default {
     }
   },
   mounted() {
-    require('@/assets/js/helloworld.js')
+    require('@/assets/js/helloworld.js');
   },
   created() {
     this.rule = "this is rule, this is rule, this is rule, this is rule"

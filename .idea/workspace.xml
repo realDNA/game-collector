@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/assets/js/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/assets/js/helloworld.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference/reference.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,10 +57,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="216" y="80" key="SettingsEditor" timestamp="1589875715231">
+    <state x="216" y="80" key="SettingsEditor" timestamp="1590040741664">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="216" y="80" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589875715231" />
+    <state x="216" y="80" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590040741664" />
     <state x="352" y="201" width="667" height="486" key="find.popup" timestamp="1590026129603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
