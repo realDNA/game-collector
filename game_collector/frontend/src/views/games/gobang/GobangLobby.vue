@@ -1,5 +1,5 @@
 <template>
-  <div class="gobang">
+  <div class="gobang-lobby">
     <button class="btn btn-sm btn-outline-info">
         <router-link to="/">
             Go back to lobby
@@ -29,7 +29,11 @@
         <p> Something Wrong happened. </p>
     </div>
 
-    <button class="btn btn-sm btn-outline-info"> random match </button>
+    <button class="btn btn-sm btn-outline-info">
+        <router-link to="/gobang/waiting">
+            random match
+        </router-link>
+    </button>
     <button class="btn btn-sm btn-outline-info"> match with a friend </button>
   </div>
 
@@ -42,7 +46,7 @@ import GameCompeting from "@/components/game-lobby/GameCompeting.vue";
 import GameLeaderBoard from "@/components/game-lobby/GameLeaderBoard.vue";
 
 export default {
-  name: "Gobang",
+  name: "GobangLobby",
   components: {
     GameNavBar,
     GameRule,

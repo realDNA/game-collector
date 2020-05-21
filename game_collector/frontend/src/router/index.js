@@ -11,13 +11,31 @@ const routes = [
     component: Home
   },
   {
-    path: "/gobang",
-    name: "Gobang",
+    path: "/gobang/waiting",
+    name: "GobangWaiting",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import("../views/games/Gobang.vue")
+      import("../views/games/gobang/GobangWaiting.vue")
+  },
+  {
+    path: "/gobang/match",
+    name: "GobangMatch",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import("../views/games/gobang/GobangMatch.vue")
+  },
+  {
+    path: "/gobang",
+    name: "GobangLobby",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import("../views/games/gobang/GobangLobby.vue")
   }
 ];
 
