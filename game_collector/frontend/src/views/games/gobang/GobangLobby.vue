@@ -59,6 +59,9 @@ export default {
         rule: null
     }
   },
+  mounted() {
+    require('@/assets/js/helloworld.js')
+  },
   created() {
     this.rule = "this is rule, this is rule, this is rule, this is rule"
   },
@@ -69,3 +72,4 @@ export default {
   }
 };
 </script>
+

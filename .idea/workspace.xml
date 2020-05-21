@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/Gobang.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference/reference.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
       <recent name="$PROJECT_DIR$/game_collector" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game_collector/frontend/src/assets" />
       <recent name="$PROJECT_DIR$/game_collector" />
     </key>
   </component>
