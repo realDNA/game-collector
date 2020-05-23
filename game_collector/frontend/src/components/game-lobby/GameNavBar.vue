@@ -25,7 +25,7 @@ export default {
   name: "GameNavBar",
   methods: {
     triggerSelectGameNavItem(item) {
-      this.$emit("select-game-nav-item", item)
+      this.$emit("input", item)
     }
   }
 };
