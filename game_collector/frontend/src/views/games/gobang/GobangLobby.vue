@@ -26,12 +26,18 @@
 </template>
 
 <script>
+// 3rd library
 //import moment from 'moment'
 //import ReconnectingWebSocket from 'reconnecting-websocket';
+
+// components
 import GameNavBar from "@/components/game-lobby/GameNavBar.vue";
 import GameRule from "@/components/game-lobby/GameRule.vue";
 import GameCompeting from "@/components/game-lobby/GameCompeting.vue";
 import GameLeaderBoard from "@/components/game-lobby/GameLeaderBoard.vue";
+
+// mixins
+import {gameNavWindowMixin} from "@/mixins/game-lobby/gameNavWindowMixin";
 
 export default {
   name: "GobangLobby",
@@ -41,35 +47,14 @@ export default {
     GameCompeting,
     GameLeaderBoard
   },
+  mixins:[
+    gameNavWindowMixin
+  ],
   data() {
     return {
-        gameNavItem: "nav-rule", //default show game rule
-        rule: null
     }
   },
   computed: {
-    selectedGameWindow() {
-      let component = null;
-      if(this.gameNavItem=="nav-rule") {
-        component = "GameRule"
-      } else if (this.gameNavItem=="nav-competing") {
-        component = "GameCompeting"
-      } else if (this.gameNavItem=="nav-leader-board") {
-        component = "GameLeaderBoard"
-      }
-      return component;
-    },
-    selectedGameWindowProperties() {
-      let properties = null;
-      if(this.gameNavItem=="nav-rule") {
-        properties = {rule: this.rule}
-      } else if (this.gameNavItem=="nav-competing") {
-        properties = {}
-      } else if (this.gameNavItem=="nav-leader-board") {
-        properties = {}
-      }
-      return properties;
-    }
   },
   mounted() {
     require('@/assets/js/helloworld.js');

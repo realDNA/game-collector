@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/components/game-lobby/GameNavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/components/game-lobby/GameNavBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference/reference.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590290521430">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="390" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1590290521430" />
     <state x="216" y="80" key="SettingsEditor" timestamp="1590040741664">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
