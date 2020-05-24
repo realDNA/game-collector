@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangLobby.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/OthelloLobby.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangMatch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/OthelloMatch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/GobangWaiting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang/OthelloWaiting.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +28,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game_collector/frontend/src/views/games/othello" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game_collector/frontend/src/views/games" />
+      <recent name="$PROJECT_DIR$/game_collector/frontend/src/assets" />
+      <recent name="$PROJECT_DIR$/game_collector" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game_collector/frontend/src/views/games/othello" />
       <recent name="$PROJECT_DIR$/game_collector/frontend/src/views/games/gobang" />
       <recent name="$PROJECT_DIR$/game_collector/frontend/src/views/games" />
       <recent name="$PROJECT_DIR$/game_collector/frontend" />
       <recent name="$PROJECT_DIR$/game_collector/game_collector" />
-      <recent name="$PROJECT_DIR$/game_collector" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/game_collector/frontend/src/assets" />
-      <recent name="$PROJECT_DIR$/game_collector" />
     </key>
   </component>
   <component name="SvnConfiguration">

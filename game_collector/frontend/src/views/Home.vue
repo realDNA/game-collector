@@ -2,9 +2,15 @@
   <div class="home">
     <div class="game-menu">
         <button>
-         <router-link to="/gobang">
-            gobang
-         </router-link>
+            <router-link to="/gobang">
+                Gobang
+            </router-link>
+        </button>
+
+        <button>
+            <router-link to="/othello">
+                Othello
+            </router-link>
         </button>
     </div>
     <ul>
