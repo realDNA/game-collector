@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "@/views/Home.vue";
 
 Vue.use(VueRouter);
 
@@ -24,18 +24,12 @@ const routes = [
   {
     path: "/gobang/match",
     name: "GobangMatch",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import("../views/games/gobang/GobangMatch.vue")
   },
   {
     path: "/gobang",
     name: "GobangLobby",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import("../views/games/gobang/GobangLobby.vue")
   },
@@ -44,27 +38,18 @@ const routes = [
   {
     path: "/othello/waiting",
     name: "OthelloWaiting",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import("../views/games/othello/OthelloWaiting.vue")
   },
   {
     path: "/othello/match",
     name: "OthelloMatch",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import("../views/games/othello/OthelloMatch.vue")
   },
   {
     path: "/othello",
     name: "OthelloLobby",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import("../views/games/othello/OthelloLobby.vue")
   }
