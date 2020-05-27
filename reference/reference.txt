@@ -10,3 +10,10 @@ https://codepen.io/collection/ABNwxq/?cursor=ZD0xJm89MCZwPTEmdj0xMTMxNDU3
 
 vue emit:
 //https://www.digitalocean.com/community/tutorials/vuejs-add-v-model-support
+
+vue separate method from single file component:
+https://forum.vuejs.org/t/split-single-file-component/34155/2
+
+vue and vuetify:
+https://buttercms.com/blog/build-a-beautiful-animated-news-app-with-vuejs-and-vuetify
+https://vuetifyjs.com/en/themes/premium/
