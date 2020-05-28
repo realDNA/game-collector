@@ -1,28 +1,25 @@
 <template>
   <div class="othello-lobby">
-
     <button class="btn btn-sm btn-outline-info">
-        <router-link to="/">
-            Go back to lobby
-        </router-link>
+      <router-link to="/">
+        Go back to lobby
+      </router-link>
     </button>
 
-    <h1> Othello </h1>
+    <h1>Othello</h1>
 
-    <GameNavBar v-model="gameNavItem"/>
+    <GameNavBar v-model="gameNavItem" />
 
-    <component :is="selectedGameWindow" v-bind="selectedGameWindowProperties"/>
+    <component :is="selectedGameWindow" v-bind="selectedGameWindowProperties" />
 
     <button class="btn btn-sm btn-outline-info">
-        <router-link to="/othello/waiting">
-            random match
-        </router-link>
+      <router-link to="/othello/waiting">
+        random match
+      </router-link>
     </button>
 
-    <button class="btn btn-sm btn-outline-info"> match with a friend </button>
-
+    <button class="btn btn-sm btn-outline-info">match with a friend</button>
   </div>
-
 </template>
 
 <script>
@@ -37,7 +34,7 @@ import GameCompeting from "@/components/game-lobby/GameCompeting.vue";
 import GameLeaderBoard from "@/components/game-lobby/GameLeaderBoard.vue";
 
 // mixins
-import {gameNavWindowMixin} from "@/mixins/game-lobby/gameNavWindowMixin";
+import { gameNavWindowMixin } from "@/mixins/game-lobby/gameNavWindowMixin";
 
 export default {
   name: "OthelloLobby",
@@ -47,24 +44,18 @@ export default {
     GameCompeting,
     GameLeaderBoard
   },
-  mixins:[
-    gameNavWindowMixin
-  ],
+  mixins: [gameNavWindowMixin],
   data() {
-    return {
-    }
+    return {};
   },
-  computed: {
-  },
+  computed: {},
   mounted() {
-    require('@/assets/js/helloworld.js');
+    require("@/assets/js/helloworld.js");
   },
   created() {
-    this.rule = "othello : this is rule, this is rule, this is rule, this is rule"
+    this.rule =
+      "othello : this is rule, this is rule, this is rule, this is rule";
   },
-  methods: {
-
-  }
+  methods: {}
 };
 </script>
-

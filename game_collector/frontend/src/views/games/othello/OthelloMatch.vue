@@ -1,10 +1,7 @@
 <template>
   <div class="othello-match">
-   Match view
+    Match view
   </div>
-
 </template>
 
-<script>
-
-</script>
+<script></script>

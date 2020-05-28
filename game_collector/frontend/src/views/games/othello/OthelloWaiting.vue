@@ -1,10 +1,7 @@
 <template>
   <div class="othello-waiting">
-   Waiting view
+    Waiting view
   </div>
-
 </template>
 
-<script>
-
-</script>
+<script></script>

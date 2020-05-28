@@ -1,24 +1,26 @@
 <template>
   <div class="home">
     <div class="game-menu">
+      <ul class="nav nav-pills">
+        <router-link :to="gobangLobby" tag="li" active-class="active"
+          ><a> Gobang </a></router-link
+        >
+        <router-link :to="othelloLobby"><a> Othello </a></router-link>
+      </ul>
 
-        <ul class="nav nav-pills">
-            <router-link :to="gobangLobby" tag="li" active-class="active"><a> Gobang </a></router-link>
-            <router-link :to="othelloLobby"><a> Othello </a></router-link>
-        </ul>
+      <v-btn class="ma-2" outlined color="indigo">
+        <router-link :to="gobangLobby"> Gobang </router-link>
+      </v-btn>
 
-        <button>
-            <router-link to="/gobang"> Gobang </router-link>
-        </button>
+      <v-btn class="ma-2" outlined color="indigo">
+        <router-link :to="othelloLobby"> Othello </router-link>
+      </v-btn>
 
-        <button>
-            <router-link to="/othello"> Othello </router-link>
-        </button>
     </div>
     <ul>
-        <li>fdafaff</li>
-        <li>werewrewrew</li>
-        <li>rewrqwerfq</li>
+      <li>fdafaff</li>
+      <li>werewrewrew</li>
+      <li>rewrqwerfq</li>
     </ul>
   </div>
 </template>
@@ -28,20 +30,19 @@ export default {
   name: "Home",
   data() {
     return {
-        //route
-        gobangLobby : {name: 'GobangLobby'},
-        othelloLobby : {name: 'OthelloLobby'}
-    }
+      //route
+      gobangLobby: { name: "GobangLobby" },
+      othelloLobby: { name: "OthelloLobby" }
+    };
   },
-  components: {
-  }
+  components: {}
 };
 </script>
 
 <style>
 .game-menu {
-    border-style: solid;
-    width: 50%;
-    height: 100px;
+  border-style: solid;
+  width: 50%;
+  height: 100px;
 }
 </style>

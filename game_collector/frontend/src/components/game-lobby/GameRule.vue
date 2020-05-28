@@ -1,9 +1,9 @@
 <template>
-<div>
-  <div class="info-container">
-    <p>{{ rule }}</p>
+  <div>
+    <div class="info-container">
+      <p>{{ rule }}</p>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style scoped>
-    .info-container {
-        width: 200px;
-        height: 200px;
-        border-style: solid;
-    }
+.info-container {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+}
 </style>

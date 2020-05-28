@@ -1,10 +1,7 @@
 <template>
   <div class="gobang-waiting">
-   Waiting view
+    Waiting view
   </div>
-
 </template>
 
-<script>
-
-</script>
+<script></script>
