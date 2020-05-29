@@ -7,6 +7,8 @@ https://www.npmjs.com/package/reconnecting-websocket
 
 svg background:
 https://codepen.io/collection/ABNwxq/?cursor=ZD0xJm89MCZwPTEmdj0xMTMxNDU3
+https://codepen.io/tutsplus/pen/bWKMoK
+https://codepen.io/GiacomoSorbi/pen/OyyzvO
 
 vue emit:
 //https://www.digitalocean.com/community/tutorials/vuejs-add-v-model-support
