@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12d0c3aa-e1d4-41b1-99eb-0c4dafca4626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/frontend/webpack-stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/game_collector/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/game_collector/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_collector/requirements/base.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game_collector/requirements/base.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference/reference.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
